@@ -20,8 +20,8 @@
     <string name="sports_info_placeholder">Here is some news</string>
 
     <string-array name="sports_titles">
-        <item>Baseball</item>
         <item>Badminton</item>
+        <item>Baseball</item>
         <item>Basketball</item>
         <item>Bowling</item>
         <item>Cycling</item>
@@ -52,13 +52,13 @@
         <item>@drawable/img_baseball</item>
         <item>@drawable/img_basketball</item>
         <item>@drawable/img_bowling</item>
-        <item>@drawable/img_tennis</item>
-        <item>@drawable/img_tabletennis</item>
-        <item>@drawable/img_swimming</item>
-        <item>@drawable/img_baseball</item>
-        <item>@drawable/img_soccer</item>
         <item>@drawable/img_cycling</item>
         <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
     </array>
 
 </resources>

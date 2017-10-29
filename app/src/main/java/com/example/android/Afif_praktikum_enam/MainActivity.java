@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
     });
 
-       // helper.attachToRecyclerView(mRecyclerView);
+       helper.attachToRecyclerView(mRecyclerView); //tanpa pemanggilan ini card tidak bisa bergerak kalau didgrag
         
     }
 
