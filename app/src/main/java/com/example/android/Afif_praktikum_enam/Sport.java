@@ -18,7 +18,7 @@ package com.example.android.Afif_praktikum_enam;
 
 import android.content.Context;
 import android.content.Intent;
-
+import android.support.annotation.DrawableRes;
 /**
  * Data model for each row of the RecyclerView.
  */
@@ -28,6 +28,9 @@ class Sport {
     private String title;
     private String info;
     private final int imageResource;
+
+    static final String TITLE_KEY = "Title";
+    static final String IMAGE_KEY = "Image Resource";
 
     /**
      * Constructor for the Sport data model
@@ -54,15 +57,17 @@ class Sport {
      */
     String getInfo() {
         return info;
-
     }
 
     public int getImageResource() {
+
         return imageResource;
     }
 
-    public static Intent starter(Context mContext, String title, int imageResource) {
-
-        return null;
+    public static Intent starter(Context context, String title, @DrawableRes int imageResId) {
+        Intent detailIntent = new Intent(context, DetailActivity.class);
+        detailIntent.putExtra(TITLE_KEY, title);
+        detailIntent.putExtra(IMAGE_KEY, imageResId);
+        return detailIntent;
     }
 }

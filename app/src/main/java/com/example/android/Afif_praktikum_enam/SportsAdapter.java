@@ -22,7 +22,7 @@ import static com.example.android.Afif_praktikum_enam.R.id.useLogo;
 /***
  * The adapter class for the RecyclerView, contains the sports data
  */
-class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
+class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.SportsViewHolder>  {
 
     //Member variables
     private GradientDrawable mGradientDrawable;
@@ -43,7 +43,8 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
         mGradientDrawable.setColor(Color.GRAY);
 
         //Make the placeholder same size as the images
-        Drawable drawable = ContextCompat.getDrawable(mContext,R.drawable.img_badminton);
+        Drawable drawable = ContextCompat.getDrawable
+                (mContext,R.drawable.img_badminton);
         if(drawable != null) {
             mGradientDrawable.setSize(drawable.getIntrinsicWidth(),
                     drawable.getIntrinsicHeight());
@@ -51,40 +52,29 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
     }
 
     @Override
-    public SportsAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new ViewHolder(mContext, LayoutInflater.from(mContext).inflate(R.layout.list_item, parent, false),
-                mGradientDrawable);
+    public SportsViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        return new SportsViewHolder(mContext, LayoutInflater.from(mContext).
+                inflate(R.layout.list_item, parent, false), mGradientDrawable);
     }
 
-    /**
-     * Required method that binds the data to the viewholder.
-     * @param holder The viewholder into which the data should be put.
-     * @param position The adapter position.
-     */
     @Override
-    public void onBindViewHolder(SportsAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(SportsViewHolder holder, int position) {
+
         //Get current sport
         Sport currentSport = mSportsData.get(position);
-        //Populate the textviews with data
+
+        //Bind the data to the view
         holder.bindTo(currentSport);
-        Glide.with(mContext).load(currentSport.getImageResource()).into(holder.mSportsimage);
+
     }
 
-
-    /**
-     * Required method for determining the size of the data set.
-     * @return Size of the data set.
-     */
     @Override
     public int getItemCount() {
         return mSportsData.size();
     }
 
 
-    /**
-     * ViewHolder class that represents each row of data in the RecyclerView
-     */
-    class ViewHolder extends RecyclerView.ViewHolder
+    static class SportsViewHolder extends RecyclerView.ViewHolder
         implements View.OnClickListener {
 
         //Member Variables for the TextViews
@@ -99,7 +89,7 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
          * Constructor for the ViewHolder, used in onCreateViewHolder().
          * @param itemView The rootview of the list_item.xml layout file
          */
-        ViewHolder(Context context, View itemView, GradientDrawable gradientDrawable) {
+        SportsViewHolder(Context context, View itemView, GradientDrawable gradientDrawable) {
             super(itemView);
 
             //Initialize the views
@@ -133,7 +123,8 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
             Intent detailIntent = Sport.starter(mContext,
                     mCurrentSport.getTitle(),
                     mCurrentSport.getImageResource());
-        //Start the detail activity
+
+            //Start the detail activity
             mContext.startActivity(detailIntent);
         }
     }
