@@ -32,6 +32,10 @@
         "source": "C:\\Users\\hilma\\.android\\build-cache\\7661ed673909eaff0123aa78d721fcfd7e2920f1\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "D:\\Semester 7\\Mobile Prog\\Afif_praktikum_enam\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail.xml",
+        "source": "D:\\Semester 7\\Mobile Prog\\Afif_praktikum_enam\\app\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
         "merged": "D:\\Semester 7\\Mobile Prog\\Afif_praktikum_enam\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\hilma\\.android\\build-cache\\7661ed673909eaff0123aa78d721fcfd7e2920f1\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },

@@ -16,6 +16,9 @@
 
 package com.example.android.Afif_praktikum_enam;
 
+import android.content.Context;
+import android.content.Intent;
+
 /**
  * Data model for each row of the RecyclerView.
  */
@@ -58,4 +61,8 @@ class Sport {
         return imageResource;
     }
 
+    public static Intent starter(Context mContext, String title, int imageResource) {
+
+        return null;
+    }
 }

@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:17:1-35:12
+ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:16:1-35:12
 	package
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:18:5-54
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:17:5-54
 		INJECTED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:17:11-69
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:16:11-69
 	android:versionCode
 		INJECTED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:20:5-33:19
+ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:19:5-33:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\7661ed673909eaff0123aa78d721fcfd7e2920f1\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\65d63b48b19b2762007f71298745aef1238fc318\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\62376d7e959a2ba66a77c8e00240c72a151c60ec\output\AndroidManifest.xml:29:5-20
@@ -25,30 +25,35 @@ MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\ce3b4c1dd72bc822d64f3850da32671d5fc410b8\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\2cb7bc68d62f6d6c3d000244df9ed5c2d88d1f19\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\71686faa6b97c7adad07fe9daeef7c838cbf88c3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hilma\.android\build-cache\0b080d1cfb42bc094223fa636cafadc8b1362c2a\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:22:9-41
 	android:supportsRtl
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:23:9-35
 	android:allowBackup
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:20:9-35
 	android:icon
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:21:9-43
 	android:theme
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:25:9-40
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:24:9-40
 activity#com.example.android.Afif_praktikum_enam.MainActivity
-ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:26:19-86
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:25:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.example.android.Afif_praktikum_enam.DetailActivity
+ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:32:9-61
+	android:name
+		ADDED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml:32:19-49
 uses-sdk
 INJECTED from D:\Semester 7\Mobile Prog\Afif_praktikum_enam\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\7661ed673909eaff0123aa78d721fcfd7e2920f1\output\AndroidManifest.xml:21:5-23:78
@@ -62,6 +67,7 @@ MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\hilma\.
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\ce3b4c1dd72bc822d64f3850da32671d5fc410b8\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\2cb7bc68d62f6d6c3d000244df9ed5c2d88d1f19\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\71686faa6b97c7adad07fe9daeef7c838cbf88c3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hilma\.android\build-cache\0b080d1cfb42bc094223fa636cafadc8b1362c2a\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\hilma\.android\build-cache\7661ed673909eaff0123aa78d721fcfd7e2920f1\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
