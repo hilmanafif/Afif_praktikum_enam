@@ -1,0 +1,4 @@
+#Mon Oct 30 00:00:34 ICT 2017
+base.0=D\:\\Semester 7\\Mobile Prog\\Afif_praktikum_enam\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\Semester 7\\Mobile Prog\\Afif_praktikum_enam\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

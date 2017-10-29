@@ -22,6 +22,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -60,8 +61,11 @@ public class MainActivity extends AppCompatActivity {
         ItemTouchHelper helper = new ItemTouchHelper (new ItemTouchHelper.SimpleCallback (ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT |
         ItemTouchHelper.DOWN | ItemTouchHelper.UP, ItemTouchHelper.LEFT |
         ItemTouchHelper.RIGHT ) {
+
             @Override
-            public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
+            public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder,
+                                  RecyclerView.ViewHolder target) {
+                //get the from
                 int from = viewHolder.getAdapterPosition();
                 int to = target.getAdapterPosition();
 
@@ -95,11 +99,19 @@ public class MainActivity extends AppCompatActivity {
 
         //Create the ArrayList of Sports objects with the titles and information about each sport
         for(int i=0;i<sportsList.length;i++){
-            mSportsData.add(new Sport(sportsList[i],sportsInfo[i], sportsImageResources.getResourceId(i,0) ));
+            mSportsData.add(new Sport(sportsList[i],sportsInfo[i],
+                    sportsImageResources.getResourceId(i,0) ));
         }
+
+        //Rexyxle the tped array
+        sportsImageResources.recycle();
 
         //Notify the adapter of the change
         mAdapter.notifyDataSetChanged();
-        sportsImageResources.recycle();
+
+    }
+
+    public void resetSports(View view) {
+        initializeData();
     }
 }
